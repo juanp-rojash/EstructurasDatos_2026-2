@@ -1,0 +1,30 @@
+[
+  {
+    "cliente": {
+      "identificacion": "1001234567",
+      "nombre": "Ana Rodríguez"
+    },
+    "precio": 150000.0
+  },
+  {
+    "cliente": {
+      "identificacion": "1002345678",
+      "nombre": "Carlos Méndez"
+    },
+    "precio": 320000.5
+  },
+  {
+    "cliente": {
+      "identificacion": "1003456789",
+      "nombre": "Laura Torres"
+    },
+    "precio": 98000.75
+  },
+  {
+    "cliente": {
+      "identificacion": "1004567890",
+      "nombre": "Miguel Sánchez"
+    },
+    "precio": 245500.0
+  }
+]
