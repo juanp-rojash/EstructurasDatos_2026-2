@@ -1,0 +1,10 @@
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=1, name='Goku', ki='60.000.000', race='Saiyan', gender='Male', image='https://dragonball-api.com/characters/goku_normal.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=2, name='Vegeta', ki='54.000.000', race='Saiyan', gender='Male', image='https://dragonball-api.com/characters/vegeta_normal.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=3, name='Piccolo', ki='2.000.000', race='Namekian', gender='Male', image='https://dragonball-api.com/characters/picolo_normal.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=4, name='Bulma', ki='0', race='Human', gender='Female', image='https://dragonball-api.com/characters/bulma.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=5, name='Freezer', ki='530.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/Freezer.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=6, name='Zarbon', ki='20.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/zarbon.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=7, name='Dodoria', ki='18.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/dodoria.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=8, name='Ginyu', ki='9.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/ginyu.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=9, name='Celula', ki='250.000.000', race='Android', gender='Male', image='https://dragonball-api.com/characters/celula.webp'}
+2026-08-06 01:59:24 [main] INFO  com.example.Main - Creacion de objeto Personaje{id=10, name='Gohan', ki='45.000.000', race='Saiyan', gender='Male', image='https://dragonball-api.com/characters/gohan.webp'}
