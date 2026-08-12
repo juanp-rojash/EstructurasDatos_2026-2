@@ -1,0 +1,55 @@
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Lectura de archivo: src/main/resources/personaje.txt
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=1, name='Goku', ki='60.000.000', race='Saiyan', gender='Male', image='https://dragonball-api.com/characters/goku_normal.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=2, name='Vegeta', ki='54.000.000', race='Saiyan', gender='Male', image='https://dragonball-api.com/characters/vegeta_normal.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=3, name='Piccolo', ki='2.000.000', race='Namekian', gender='Male', image='https://dragonball-api.com/characters/picolo_normal.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=4, name='Bulma', ki='0', race='Human', gender='Female', image='https://dragonball-api.com/characters/bulma.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=5, name='Freezer', ki='530.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/Freezer.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=6, name='Zarbon', ki='20.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/zarbon.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=7, name='Dodoria', ki='18.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/dodoria.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=8, name='Ginyu', ki='9.000', race='Frieza Race', gender='Male', image='https://dragonball-api.com/characters/ginyu.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=9, name='Celula', ki='250.000.000', race='Android', gender='Male', image='https://dragonball-api.com/characters/celula.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Creacion de objeto: Personaje{id=10, name='Gohan', ki='45.000.000', race='Saiyan', gender='Male', image='https://dragonball-api.com/characters/gohan.webp'}
+2026-08-12 17:34:27 [main] INFO  com.example.Util.Configuration - Fin de extracción de datos: 10 Personajes creados  en total
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Generación de Torneo - Cantidad de Participantes: 10
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Procesamiento de filas y posiciones
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Goku -> Linea A
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Vegeta -> Linea A
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Piccolo -> Linea A
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Bulma -> Linea A
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Freezer -> Linea A
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Zarbon -> Linea B
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Dodoria -> Linea B
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Ginyu -> Linea B
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Celula -> Linea B
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleador: Gohan -> Linea B
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Generacion de alineacion
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Lineamiento final: 
+
+
+Goku VS Zarbon
+Vegeta VS Dodoria
+Piccolo VS Ginyu
+Bulma VS Celula
+Freezer VS Gohan
+
+
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Inicio de rastreo de poder - Cantidad de elementos: 10
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Estandarizando exposicion de peleadores rastreados
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Peleadores filtrados por poder: 
+
+
+Gohan	: 45.000.000
+Celula	: 250.000.000
+Piccolo	: 2.000.000
+Vegeta	: 54.000.000
+Goku	: 60.000.000
+
+
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Inicio de censo
+2026-08-12 17:34:27 [main] INFO  com.example.Service.Torneo - Resultado de Censo: 
+
+Cantidad de participantes: 10
+Listado de Razas: 
+[Human, Saiyan, Namekian, Frieza Race, Android]
+
+
