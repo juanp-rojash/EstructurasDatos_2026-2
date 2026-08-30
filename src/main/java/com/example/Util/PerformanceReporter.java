@@ -1,8 +1,11 @@
 package com.example.Util;
 
+// Lombok: crea automáticamente el logger 'log' para registrar mensajes.
 import lombok.extern.log4j.Log4j2;
+// JOL: mide el tamaño real del objeto en memoria, incluyendo campos y layout de la JVM.
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.info.GraphLayout;
+// OSHI: obtiene métricas del sistema operativo y hardware, como memoria física disponible.
 import oshi.SystemInfo;
 
 import java.util.Locale;
@@ -10,12 +13,17 @@ import java.util.Locale;
 @Log4j2(topic = "performance")
 public class PerformanceReporter {
 
+    // Permite consultar la memoria del sistema operativo (RAM real).
     private static final SystemInfo si = new SystemInfo();
+    // Convierte bytes a megabytes para mostrar valores legibles.
     private static final long BYTES_PER_MB = 1024L * 1024L;
 
+    // Mide el tamaño del objeto y su árbol de referencias para entender el consumo de memoria.
     public static void medirPesoObjeto(Object objeto, String nombreObjeto) {
 
+        // instanceSize(): tamaño superficial del objeto sin contar referencias anidadas.
         long pesoBytes = ClassLayout.parseInstance(objeto).instanceSize();
+        // totalSize(): incluye el objeto y todos los objetos referenciados por él.
         long pesoTotal = GraphLayout.parseInstance(objeto).totalSize();
 
         log.info("Objeto '{}' | tamaño superficial: {} bytes | con referencias: {} bytes",
@@ -23,14 +31,17 @@ public class PerformanceReporter {
 
     }
 
+    // Consulta la memoria consumida por la JVM y la RAM física disponible del equipo.
     public static void reportarMemoriaSistema() {
         Runtime runtime = Runtime.getRuntime();
 
+        // Memoria del heap de Java: asignada y usada por la JVM.
         long totalHeap = runtime.totalMemory();
         long usedHeap = totalHeap - runtime.freeMemory();
         long maxHeap = runtime.maxMemory();
         double porcentajeUso = totalHeap == 0 ? 0 : (100.0 * usedHeap) / totalHeap;
 
+        // OSHI: obtiene la memoria total y disponible del sistema.
         long totalFisica = si.getHardware().getMemory().getTotal();
         long disponibleFisica = si.getHardware().getMemory().getAvailable();
 
@@ -44,10 +55,12 @@ public class PerformanceReporter {
 
     }
 
+    // Convierte bytes a MB para imprimir valores de memoria en formato legible.
     private static String formatearMegabytes(long bytes) {
         return formatearDecimal((double) bytes / BYTES_PER_MB) + " MB";
     }
 
+    // Locale.ROOT evita problemas de formato con comas/puntos según el idioma del sistema.
     private static String formatearDecimal(double valor) {
         return String.format(Locale.ROOT, "%.2f", valor);
     }
