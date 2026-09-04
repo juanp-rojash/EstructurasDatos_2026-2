@@ -1,0 +1,17 @@
+2026-09-02 18:50:38 [main] INFO  performance - Objeto 'Pedido' | tamaño superficial: 24 bytes | con referencias: 24 bytes
+2026-09-02 18:50:38 [main] INFO  performance - Objeto 'Cliente' | tamaño superficial: 24 bytes | con referencias: 48 bytes
+2026-09-02 18:50:38 [main] INFO  performance - Memoria JVM | usada: 12.58 MB | asignada: 252.00 MB | máxima: 4028.00 MB | uso: 4.99%
+2026-09-02 18:50:38 [main] INFO  performance - Memoria física | usada: 10871.07 MB | total: 16108.05 MB | disponible: 5236.99 MB
+2026-09-02 18:50:38 [main] INFO  performance - Objeto 'Matriz A [1000][1000]' | tamaño superficial: 4016 bytes | con referencias: 8020016 bytes
+2026-09-02 18:50:38 [main] INFO  performance - Memoria JVM | usada: 29.80 MB | asignada: 252.00 MB | máxima: 4028.00 MB | uso: 11.83%
+2026-09-02 18:50:38 [main] INFO  performance - Memoria física | usada: 10871.07 MB | total: 16108.05 MB | disponible: 5236.99 MB
+2026-09-02 18:50:46 [main] INFO  performance - Objeto 'Matriz C [1000][1000]' | tamaño superficial: 4016 bytes | con referencias: 8020016 bytes
+2026-09-02 18:50:46 [main] INFO  performance - Memoria JVM | usada: 30.34 MB | asignada: 252.00 MB | máxima: 4028.00 MB | uso: 12.04%
+2026-09-02 18:50:46 [main] INFO  performance - Memoria física | usada: 10910.91 MB | total: 16108.05 MB | disponible: 5197.15 MB
+2026-09-02 18:53:56 [main] INFO  performance - Objeto 'Pedido' | tamaño superficial: 24 bytes | con referencias: 24 bytes
+2026-09-02 18:53:56 [main] INFO  performance - Objeto 'Cliente' | tamaño superficial: 24 bytes | con referencias: 48 bytes
+2026-09-02 18:53:56 [main] INFO  performance - Memoria JVM | usada: 12.60 MB | asignada: 252.00 MB | máxima: 4028.00 MB | uso: 5.00%
+2026-09-02 18:53:56 [main] INFO  performance - Memoria física | usada: 10979.25 MB | total: 16108.05 MB | disponible: 5128.80 MB
+2026-09-02 18:54:01 [main] INFO  performance - Objeto 'Matriz A [8000][8000]' | tamaño superficial: 32016 bytes | con referencias: 512160016 bytes
+2026-09-02 18:54:01 [main] INFO  performance - Memoria JVM | usada: 1510.10 MB | asignada: 2880.00 MB | máxima: 4028.00 MB | uso: 52.43%
+2026-09-02 18:54:01 [main] INFO  performance - Memoria física | usada: 12761.23 MB | total: 16108.05 MB | disponible: 3346.82 MB
